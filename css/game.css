@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei",微软雅黑,"Droid Sans Fallback";
+    color:white;
+}
+body{
+    background-color: black;
+}
+input{
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+.afterclear:after{
+    content: ' ';
+    clear: both;
+    display: table;
+}
+.button{
+    width: 80px;
+    height: 30px;
+    border: 4px solid white;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 30px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.linkbutton:hover{
+    cursor:pointer;
+}
+.smallinp{
+    width: 70px;
+    height: 25px;
+}
+.arrows{
+    width: 100px;
+    height: 100px;
+}
+.arrows:hover{
+    cursor: pointer;
+}
+.one_item{
+    width: 700px;
+}
+.item_name{
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+.item_value{
+    display: inline-block;
+    width: 500px;
+}
+
+
+
+#div_music{
+    position: fixed;
+    right: 100px;
+    height: 50px;
+}
+#toggle_music{
+    height: 50px;
+    width:50px;
+}
+#toggle_music:hover{
+    cursor: pointer;
+}
+
+
+#div_virtual_keys{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+#toggle_virtual_key{
+    text-align: right;
+    margin-bottom: 20px;
+}
+#arrow_keys{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    display: none;
+}
+#leftkey{
+    position: absolute;
+    left: 0px;
+    top: 75px;
+}
+#rightkey{
+    position: absolute;
+    right: 0px;
+    top: 75px;
+}
+#upkey{
+    position: absolute;
+    top: 0px;
+    left: 75px;
+}
+#downkey{
+    position: absolute;
+    bottom: 0px;
+    left: 75px;
+}
+
+
+#top_title{
+    font-size: 100px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#top_nav{
+    width: 650px;
+    margin: 0px auto;
+    font-size: 20px;
+}
+#signlog_nav{
+    float: left;
+}
+#signlog_nav>div{
+    margin-left: 30px;
+    float: left;
+}
+#div_logsign{
+    width: 700px;
+    margin: 10px auto;
+}
+#btn_login,#btn_signup{
+    margin: 0px auto;
+}
+#other_nav{
+    float: right;
+}
+#other_nav a{
+    margin-right: 30px;
+}
+
+#top_level_num{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+#div_game_container{
+    text-align:center;
+}
+.game_tip{
+    font-size: xx-small;
+    width: 400px;
+    margin: 0px auto;
+}
+
+#div_game_operats{
+    width: 800px;
+    margin: 20px auto;
+}
+#div_game_operats .button{
+    float: right;
+    margin-right: 30px;
+}
+#div_stepnum{
+    font-size: 25px;
+    float: left;
+    vertical-align: middle;
+}
+#next_level{
+    visibility: hidden;
+}
+
+#choose_level{
+    width: 800px;
+    margin: 0px auto;
+    margin-top: 80px;
+}
+#choose_level_title{
+    font-size: 40px;
+    text-align: center;
+}
+#levellist{
+    margin: 10px auto;
+}
+.level_button{
+    width: 50px;
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+    border-width: 2px;
+}
+#level_opt_buttons{
+    width: 600px;
+    margin: 10px auto;
+}
+#level_opt_buttons div{
+    float: left;
+    margin-left: 20px;
+}
+
+#div_game_rank{
+    width: 800px;
+    margin: 100px auto;
+}
+#rank_title_big{
+    font-size: 30px;
+    margin-right: 50px;
+}
+#rank_refresh{
+    float: right;
+    margin-top: 10px;
+}
+#tab_rank{
+    width: 600px;
+    margin: 0px auto;
+    text-align: center;
+}
+#rank_buttons{
+    width: 600px;
+    margin: 10px auto;
+}
+#rank_buttons div{
+    float: left;
+    margin-left: 20px;
+}
+
+

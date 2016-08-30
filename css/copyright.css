@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei",微软雅黑,"Droid Sans Fallback";
+    color:white;
+}
+body{
+    background-color: black;
+}
+
+#body{
+    width: 800px;
+    margin:0px auto;
+}
+#top_title{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 70px;
+    text-align: center;
+}
+#content>p{
+    font-size: 30px;
+}

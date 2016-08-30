@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei",微软雅黑,"Droid Sans Fallback";
+    color:white;
+}
+body{
+    background-color: black;
+}
+
+#body{
+    width: 800px;
+    margin:0px auto;
+}
+#top_title{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 70px;
+    text-align: center;
+}
+#content>p{
+    font-size: 25px;
+    margin: 20px auto;
+    text-indent: 2em;
+}
+
+.game_element{
+    width: 100px;
+    height: 70px;
+    display: inline-block;
+}
+.game_element_img{
+    display: block;
+    margin: 0px auto;
+}
+.game_element_t{
+    text-align: center;
+}

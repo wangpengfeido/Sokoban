@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>推箱子Online</title>
+    <link href="../css/game.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <audio id="music" loop="loop">
+        <source src="../sound/breezeInTheField.mp3" type="audio/mpeg">
+        <source src="../sound/breezeInTheField.wav" type="audio/x-wav">
+        <source src="../sound/breezeInTheField.ogg" type="audio/ogg">
+    </audio>
+    <audio id="pushsound">
+        <source src="../sound/pushbox.mp3" type="audio/mpeg">
+        <source src="../sound/pushbox.wav" type="audio/x-wav">
+        <source src="../sound/pushbox.ogg" type="audio/ogg">
+    </audio>
+    <audio id="gosound">
+        <source src="../sound/go.mp3" type="audio/mpeg">
+        <source src="../sound/go.wav" type="audio/x-wav">
+        <source src="../sound/go.ogg" type="audio/ogg">
+    </audio>
+
+    <div id="div_music"><img id="toggle_music" src="../images/music.png"></div>
+
+    <div id="top_title">推箱子Online</div>
+    <div id="top_nav" class="afterclear">
+        <div id="signlog_nav"></div>
+        <div id="other_nav">
+            <a href="gameexplan.html" target="_blank">游戏玩法</a>
+            <a href="copyright.html" target="_blank">声明</a>
+        </div>
+
+    </div>
+    <div id="div_logsign"></div>
+
+    <div id="top_level_num"></div>
+    <div id="div_game_container"></div>
+    <div class="game_tip">提示：wasd或↑↓←→键或右下角虚拟键盘控制移动<br/>登录后自动保存进度，游戏体验更好呦</div>
+
+    <div id="div_game_operats" class="afterclear">
+        <div id="div_stepnum">当前已走步数：0</div>
+        <div class="button" id="restart">重新开始</div>
+        <div class="button" id="restore">恢复</div>
+        <div class="button" id="revocation">撤销</div>
+        <div class="button" id="next_level">下一关</div>
+    </div>
+
+    <div id="choose_level">
+        <div id="choose_level_title">选关</div>
+        <div id="levellist" class="afterclear"></div>
+        <div id="level_opt_buttons" class="afterclear">
+            <div class="button" id="level_lastpage">上一页</div>
+            <div>第<input id="level_currentpage" class="smallinp" type="text">/<span id="level_pagecount"></span>页</div>
+            <div class="button" id="level_pagejump">跳转</div>
+            <div class="button" id="level_nextpage">下一页</div>
+        </div>
+    </div>
+
+    <div id="div_game_rank">
+        <div id="rank_title">
+            <span id="rank_title_big">排行榜</span>
+            <span id="user_score"></span>
+            <div id="rank_refresh" class="linkbutton">刷新</div>
+        </div>
+        <hr id="hr_rank"/>
+        <table id="tab_rank"></table>
+        <div id="rank_buttons">
+            <div class="button" id="rank_lastpage">上一页</div>
+            <div>第<input id="rank_currentpage" class="smallinp" type="text">/<span id="rank_pagecount"></span>页</div>
+            <div class="button" id="rank_pagejump">跳转</div>
+            <div class="button" id="rank_nextpage">下一页</div>
+        </div>
+    </div>
+
+    <div id="div_virtual_keys">
+        <div id="toggle_virtual_key" class="linkbutton">开启虚拟按键</div>
+        <div id="arrow_keys">
+            <img class="arrows" id="leftkey" src="../images/leftarrow.png">
+            <img class="arrows" id="rightkey" src="../images/rightarrow.png">
+            <img class="arrows" id="upkey" src="../images/uparrow.png">
+            <img class="arrows" id="downkey" src="../images/downarrow.png">
+        </div>
+    </div>
+
+    <script src="../js/game.js"></script>
+</body>
+</html>
